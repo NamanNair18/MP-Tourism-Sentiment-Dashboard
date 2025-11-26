@@ -52,33 +52,32 @@ The application is structured around two main analytical components and one inte
 * A Google Gemini API Key.
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/YourUsername/Touriscope-Data-Driven-Tourism-Intelligence.git](https://github.com/YourUsername/Touriscope-Data-Driven-Tourism-Intelligence.git)
 cd Touriscope-Data-Driven-Tourism-Intelligence
 
 
+### 2️⃣ Install Dependencies
 
-***2️⃣ Install Dependencies***
-```bash
 pip install -r requirements.txt
 
-***3️⃣ Configure the Gemini API Key (Secure Method)***
+### 3️⃣ Configure the Gemini API Key (Secure Method)***
 
 ⚠️ Important: Do not hardcode your API key.
 
 Create a secrets.toml file using:
-```bash
+
 mkdir .streamlit
 touch .streamlit/secrets.toml
 
 
 Open .streamlit/secrets.toml and paste:
-```bash
+
 [gemini]
 api_key = "YOUR_ACTUAL_GEMINI_API_KEY"
 
-***4️⃣ Run the Data Processing Pipeline***
-```bash
+### 4️⃣ Run the Data Processing Pipeline
+
 Run the required scripts in order:
 
 # Step 1: Clean and preprocess raw data
@@ -93,7 +92,7 @@ python scripts/add_coordinates.py
 # Step 4: Extract civic complaints
 python scripts/civic_complaint_extractor.py
 
-***5️⃣ Launch the Application***
+### 5️⃣ Launch the Application
 ```bash
 streamlit run app.py
 
