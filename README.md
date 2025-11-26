@@ -93,8 +93,12 @@ python scripts/add_coordinates.py
 python scripts/civic_complaint_extractor.py
 
 ### 5️⃣ Launch the Application
-```bash
-streamlit run app.py
 
+
+*** streamlit run app.py***
 
 The app will automatically open in your browser.
+
+### ✍️ Author and License
+Author: Naman Nair
+License: This project is licensed under the MIT License.
