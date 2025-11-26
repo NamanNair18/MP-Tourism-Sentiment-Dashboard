@@ -101,4 +101,5 @@ The app will automatically open in your browser.
 
 ### ✍️ Author and License
 Author: Naman Nair
+
 License: This project is licensed under the MIT License.
