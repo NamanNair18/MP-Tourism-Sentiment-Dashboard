@@ -63,15 +63,15 @@ pip install -r requirements.txt
 
 ### 3️⃣ Configure the Gemini API Key (Secure Method)***
 
-⚠️ Important: Do not hardcode your API key.
+->⚠️ Important: Do not hardcode your API key.
 
-Create a secrets.toml file using:
+->Create a secrets.toml file using:
 
 mkdir .streamlit
 touch .streamlit/secrets.toml
 
 
-Open .streamlit/secrets.toml and paste:
+->Open .streamlit/secrets.toml and paste:
 
 [gemini]
 api_key = "YOUR_ACTUAL_GEMINI_API_KEY"
