@@ -1,3 +1,41 @@
+
+# ----------------------------------------------------------------------
+# 1. STREAMLIT SECRETS (CRITICAL SECURITY)
+# ----------------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ----------------------------------------------------------------------
+# 2. GENERATED DATA AND OUTPUTS
+# ----------------------------------------------------------------------
+turiscope_mp_tourism_clean_data.csv
+data/*.json
+
+# ----------------------------------------------------------------------
+# 3. PYTHON ENVIRONMENT AND COMPILATION
+# ----------------------------------------------------------------------
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# ----------------------------------------------------------------------
+# 4. OPERATING SYSTEM & EDITOR FILES
+# ----------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+```
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
