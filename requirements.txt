@@ -1,0 +1,12 @@
+streamlit
+pandas
+requests
+beautifulsoup4
+lxml
+folium
+vaderSentiment  
+textblob       
+twikit          
+plotly          
+selenium
+google.generativeai
