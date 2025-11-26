@@ -95,7 +95,7 @@ python scripts/civic_complaint_extractor.py
 ### 5️⃣ Launch the Application
 
 
-*** streamlit run app.py***
+*** streamlit run app.py ***
 
 The app will automatically open in your browser.
 
